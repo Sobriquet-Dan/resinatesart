@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.navBar{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    position: fixed;
+    z-index: 1000;
+}
+.navBar h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.navBar a{
+    color: white;
+}
+.nav-logo{
+    color: white;
+}
+.nav-logo:hover{
+    transform: scale(1.1);
+}
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 2rem;
+}
+.menu li{
+    padding: 5px 14px;
+}
+.menu a{
+    padding: 6px;
+    color: white;
+}
+.menu a:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+}

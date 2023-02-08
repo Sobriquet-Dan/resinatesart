@@ -1,0 +1,14 @@
+.body-content{
+    background: linear-gradient(to top, #000000CD, #000000CD), url("./../components/images/tree-painting.jpeg") repeat top center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.body-content h1{
+    font-size: 5rem;
+    color: rgba(255,255,255,0.5);
+}
